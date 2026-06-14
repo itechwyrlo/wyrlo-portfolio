@@ -30,6 +30,21 @@ export default function ProjectCard({ project }: Props) {
             </span>
           ))}
         </div>
+
+        {(project.links.demo || project.links.repo) && (
+          <div className="d-flex gap-2 mt-4">
+            {project.links.demo && (
+              <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-primary">
+                View Demo
+              </a>
+            )}
+            {project.links.repo && (
+              <a href={project.links.repo} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-secondary">
+                View Repo
+              </a>
+            )}
+          </div>
+        )}
       </div>
     </div>
   )

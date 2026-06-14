@@ -30,7 +30,9 @@ export const projects: Project[] = [
       'Set up a GitHub Actions pipeline to build and deploy automatically on every push to the main branch.'
     ],
     stack: ['React', 'TypeScript', 'C#', 'ASP.NET Core', 'SQL Server', 'Entity Framework Core', 'CQRS', 'DDD', 'GitHub Actions'],
-    links: {}
+    links: {
+      demo: 'https://apexbooking.runasp.net/'
+    }
   },
   {
     id: 'iponmo',
@@ -48,6 +50,8 @@ export const projects: Project[] = [
       'Set up a GitHub Actions pipeline for continuous integration and deployment.'
     ],
     stack: ['React', 'TypeScript', 'PWA', 'Real-time messaging', 'Vercel', 'GitHub Actions'],
-    links: {}
+    links: {
+      demo: 'https://iponmo.vercel.app/login'
+    }
   }
 ]
