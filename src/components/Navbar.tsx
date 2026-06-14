@@ -30,6 +30,17 @@ export default function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="#contact">contact</a>
             </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://github.com/itechwyrlo"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my GitHub"
+              >
+                github
+              </a>
+            </li>
           </ul>
         </div>
       </div>
