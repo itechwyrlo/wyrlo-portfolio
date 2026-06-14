@@ -15,11 +15,7 @@ export default function About() {
               keep an existing codebase healthy without breaking what already works.
             </p>
             <p className="mb-3 text-muted">
-              Before moving into application development, I spent a year as a malware analysis
-              trainee, reverse engineering Windows binaries with IDA Pro and OllyDbg. That work
-              trained me to read unfamiliar code carefully, form a hypothesis, and test it before
-              making changes, a habit that carries directly into how I approach backend
-              development today.
+              Before moving into application development, I worked as a malware analysis trainee, reverse engineering Windows binaries with IDA Pro and OllyDbg. That work trained me to read unfamiliar code carefully, form a hypothesis, and test it before making changes, a habit that carries directly into how I approach backend development today.
             </p>
             <p className="mb-4 text-muted">
               Outside of work, I build full stack projects from scratch to learn React and
